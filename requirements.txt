@@ -1,0 +1,16 @@
+# Stemify — requirements
+
+# Core audio
+librosa>=0.10.0
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# Stem separation
+demucs>=4.0.1
+
+# PyTorch (CPU) — replace with CUDA build for GPU speed
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Web UI
+gradio>=4.0.0
